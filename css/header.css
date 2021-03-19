@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding:0;
+}
+.div-with-font-icon{
+  /* background-image:url(); */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  min-height:900px;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/green.jpg');
+ 
+}
+
+.div-with-font-icon a{
+  color:rgb(251, 255, 252);
+  padding-right:12px;
+  
+
+}
+
+.div-with-font-icon a:hover{
+   color:rgb(114, 133, 133);
+   
+}
+
+.div-with-font-icon {
+  color:rgb(222, 230, 230);
+  
+}
+
+.icon_color{
+  color:rgb(95, 212, 5);
+  padding-top:4px;
+  border-radius: 50%;
+  
+  
+}
+
+.row_one{
+  border-bottom: 1px solid rgb(97, 93, 93);
+  padding-top:5px;
+}
+
+.nav-ul a{
+  list-style: none;
+  display: inline-block;
+  padding-top: 20px;
+  padding-left: 1.8rem;
+  font-size: 1.1rem;
+ 
+}
+
+.nav-ul{
+  margin-right: 18.5rem;
+  margin-top:1rem;
+  
+}
+.nav-main{
+  transition: 0.8s;
+ 
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  color:rgb(95, 212, 5);
+  opacity: 7;
+}
+
+.pop-up-cart{
+  
+}
+
+
+
+
+
