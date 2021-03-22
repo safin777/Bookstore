@@ -8,20 +8,36 @@
 </head>
 <body>
      <h1 id="heading">Hello</h1>
-     <h1 id="heading2">sayed</h1>
+     <h1 id="heading2"></h1>
+
     <script>
-        myFunction = ()=>{
-          return "Sayed islam safin";
+      
+
+      class Vehical{
+         
+        constructor(){
+          
         }
 
-        document.getElementById('heading').innerHTML=myFunction();
+        carDetails=(name,color,price)=>
+        {
+            this.name=name;
+            this.color=color;
+            this.price=price;
 
-       myArrowFunction=(val)=>{
-            
-            return val;
-       }
+        }
 
-       document.getElementById('heading2').innerHTML=myArrowFunction("safin");
+        showCarDetails=()=>
+        {
+          return (this.name + "  " +this.color+ " $" +this.price);
+        }
+
+      }
+
+      var car=new Vehical();
+      car.carDetails("bmw","black",20000);
+      car.showCarDetails();
+      document.getElementById('heading').innerHTML= car.showCarDetails();
     </script>
 
    
