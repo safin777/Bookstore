@@ -8,34 +8,22 @@
 </head>
 <body>
      <h1 id="heading">Hello</h1>
-     <h2 id="result"> sajid</h2>
-     <h2 id="array"> sajid</h2>
-     <button type="button" onclick="document.getElementById('heading').style.fontSize='3rem'">bro click me</button>
+     <h1 id="heading2">sayed</h1>
     <script>
-     const profile={
-       name:"safin",
-       age:24,
-       city:"dhaka",
-       fullname:function()
-                    {
-                      return this.name;
-                    }        
-       
-     }
+        myFunction = ()=>{
+          return "Sayed islam safin";
+        }
 
-     document.getElementById('result').innerHTML=profile.fullname();
+        document.getElementById('heading').innerHTML=myFunction();
+
+       myArrowFunction=(val)=>{
+            
+            return val;
+       }
+
+       document.getElementById('heading2').innerHTML=myArrowFunction("safin");
     </script>
 
-    <script>
-      var txt=" ";
-     var numbers =[1,2];
-     numbers.forEach(arrayFunction);
-     document.getElementById('array').innerHTML=txt;
-
-     function arrayFunction(value){
-       txt = txt + value ;
-    }
-    
-    </script>
+   
 </body>
 </html>
